@@ -1,0 +1,41 @@
+.Login {
+	.content {
+		.form {
+			display: flex;
+			justify-content: space-around;
+			flex-direction: column;
+			width: 25rem;
+			height: 25rem;
+			padding: 2rem;
+			margin-bottom: 3rem;
+			margin-left: 25rem;
+			background: transparent;
+			backdrop-filter: blur(3px);
+			border: 1px solid white;
+			border-radius: 1rem;
+
+			h2 {
+				font-size: 2rem;
+				cursor: pointer;
+			}
+			h2:hover {
+				text-shadow: 3px 3px 3px rgb(0, 255, 187);
+				transition: 0.5s;
+			}
+			input {
+				height: 2.5rem;
+				background: transparent;
+				border-radius: 5px;
+				padding: 0.5rem;
+				color: white;
+				cursor: progress;
+			}
+			p {
+				color: red;
+			}
+			button {
+				color: white;
+			}
+		}
+	}
+}

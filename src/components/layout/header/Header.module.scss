@@ -1,0 +1,36 @@
+.Header {
+	height: 5rem;
+	background: transparent;
+	backdrop-filter: blur(5px);
+
+	.content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		button {
+			color: white;
+		}
+		.incon {
+			display: flex;
+			justify-content: space-between;
+			gap: 1rem;
+			.i {
+				color: white;
+			}
+		}
+
+		.logo {
+			h1 {
+				display: inline;
+				background: var(
+					--2,
+					linear-gradient(97deg, #2a0365 10.04%, #07d0c9b9 61.84%, #04f5f5)
+				);
+				background-clip: text;
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+		}
+	}
+}
